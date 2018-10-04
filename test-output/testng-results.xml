@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13553" started-at="2018-10-03T00:59:25Z" finished-at="2018-10-03T00:59:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13553" started-at="2018-10-03T00:59:25Z" finished-at="2018-10-03T00:59:39Z">
+      <class name="com.rutu.yash.PageTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.rutu.yash.PageTest@770c2e6b]" name="beforeMethod" is-config="true" duration-ms="7910" started-at="2018-10-02T20:59:25Z" finished-at="2018-10-02T20:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cssSelector()[pri:0, instance:com.rutu.yash.PageTest@770c2e6b]" name="cssSelector" duration-ms="5542" started-at="2018-10-02T20:59:33Z" finished-at="2018-10-02T20:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cssSelector -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.rutu.yash.PageTest@770c2e6b]" name="afterMethod" is-config="true" duration-ms="8" started-at="2018-10-02T20:59:39Z" finished-at="2018-10-02T20:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.rutu.yash.PageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

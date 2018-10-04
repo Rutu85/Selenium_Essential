@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.rutu.yash.PageTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 428.738 s <<< FAILURE! - in com.rutu.yash.PageTest
+explicitWait(com.rutu.yash.PageTest)  Time elapsed: 106.903 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timed out after 100 seconds waiting for text ('nnnWrong Password, try again') to be present in element found by By.xpath: .//*[@id='password']/div[2]/div[2]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LAPTOP-TO2ES5BG', ip: '192.168.71.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ec014d9b-88f6-4b92-bc13-cbb8432317b1
+	at com.rutu.yash.PageTest.explicitWait(PageTest.java:65)
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">16</td><td class="numi">16</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">427.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Surefire test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.rutu.yash.PageTest</td><td><a href="#m1"><b>explicitWait</b>  </a></td><td class="numi">1</td><td>1538610897105</td><td class="numi">106889</td></tr>
+<tr><th colspan="4">Surefire test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="16">com.rutu.yash.PageTest</td><td><a href="#m2"><b>SelectClass</b>  </a></td><td class="numi">1</td><td>1538610822422</td><td class="numi">5584</td></tr><tr class="passedodd"><td><a href="#m3"><b>cssSelector</b>  </a></td><td class="numi">1</td><td>1538610840915</td><td class="numi">5272</td></tr><tr class="passedodd"><td><a href="#m4"><b>dragAndDrop</b>  </a></td><td class="numi">1</td><td>1538610860094</td><td class="numi">2587</td></tr><tr class="passedodd"><td><a href="#m5"><b>dropDownTest</b>  </a></td><td class="numi">1</td><td>1538610875560</td><td class="numi">8347</td></tr><tr class="passedodd"><td><a href="#m6"><b>frameTest</b>  </a></td><td class="numi">1</td><td>1538611015161</td><td class="numi">1742</td></tr><tr class="passedodd"><td><a href="#m7"><b>hoverAction</b>  </a></td><td class="numi">1</td><td>1538611030401</td><td class="numi">2775</td></tr><tr class="passedodd"><td><a href="#m8"><b>javaScriptExecutor</b>  </a></td><td class="numi">1</td><td>1538611045439</td><td class="numi">2957</td></tr><tr class="passedodd"><td><a href="#m9"><b>keyTest</b>  </a></td><td class="numi">1</td><td>1538611061527</td><td class="numi">6082</td></tr><tr class="passedodd"><td><a href="#m10"><b>multipleWindowTest</b>  </a></td><td class="numi">1</td><td>1538611081045</td><td class="numi">16624</td></tr><tr class="passedodd"><td><a href="#m11"><b>navigate</b>  </a></td><td class="numi">1</td><td>1538611109680</td><td class="numi">8745</td></tr><tr class="passedodd"><td><a href="#m12"><b>openPageinNewWindow</b>  </a></td><td class="numi">1</td><td>1538611131019</td><td class="numi">2521</td></tr><tr class="passedodd"><td><a href="#m13"><b>pageLoadTimeOut</b>  </a></td><td class="numi">1</td><td>1538611145875</td><td class="numi">2043</td></tr><tr class="passedodd"><td><a href="#m14"><b>popUpTest</b>  </a></td><td class="numi">1</td><td>1538611162557</td><td class="numi">9893</td></tr><tr class="passedodd"><td><a href="#m15"><b>radioButton</b>  </a></td><td class="numi">1</td><td>1538611184496</td><td class="numi">5089</td></tr><tr class="passedodd"><td><a href="#m16"><b>screenShotTest</b>  </a></td><td class="numi">1</td><td>1538611205045</td><td class="numi">13893</td></tr><tr class="passedodd"><td><a href="#m17"><b>windowSizeTest</b>  </a></td><td class="numi">1</td><td>1538611232134</td><td class="numi">3945</td></tr>
+</table>
+<h1>Surefire test</h1>
+<h2 id="m1">com.rutu.yash.PageTest:explicitWait</h2>
+<div style="padding-left:3em">
+<p>Timed out after 100 seconds waiting for text (&apos;nnnWrong Password, try again&apos;) to be present in element found by By.xpath: .//*[@id=&apos;password&apos;]/div[2]/div[2]
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAPTOP-TO2ES5BG&apos;, ip: &apos;192.168.71.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ec014d9b-88f6-4b92-bc13-cbb8432317b1</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+<br/>at com.rutu.yash.PageTest.explicitWait(PageTest.java:65)
+<br/>30 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.rutu.yash.PageTest:navigate</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.rutu.yash.PageTest:keyTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.rutu.yash.PageTest:SelectClass</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.rutu.yash.PageTest:radioButton</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.rutu.yash.PageTest:openPageinNewWindow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.rutu.yash.PageTest:popUpTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.rutu.yash.PageTest:dragAndDrop</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.rutu.yash.PageTest:pageLoadTimeOut</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.rutu.yash.PageTest:dropDownTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.rutu.yash.PageTest:screenShotTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.rutu.yash.PageTest:windowSizeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.rutu.yash.PageTest:frameTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.rutu.yash.PageTest:hoverAction</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.rutu.yash.PageTest:javaScriptExecutor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.rutu.yash.PageTest:cssSelector</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.rutu.yash.PageTest:multipleWindowTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
